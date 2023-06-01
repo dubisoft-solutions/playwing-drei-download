@@ -21,7 +21,7 @@ html {
     min-height: 88vh;
     .banner {
         position: relative;
-        height: 140vw;
+        height: 114vw;
         @media (min-width: 576px) {
             height: 98vw;
         }
@@ -40,27 +40,19 @@ html {
             position: absolute;
             top: 0;
             object-fit: cover;
-            background-color: $light-grey;
-            opacity: 0.05;
-            filter: drop-shadow(0px 4px 4px rgba(9, 4, 43, 0.25));
             @media (min-width: 576px) {
                 object-fit: contain;
             }
         }
-        .banner-icon {
-            position: absolute;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            top: 50%;
-        }
         .banner-text {
             position: absolute;
-            bottom: 2.5rem;
+            bottom: -.625rem;
             left: 0;
             right: 0;
         }
     }
     .hero {
+        padding-top: 2.5rem;
         padding-bottom: 2rem;
     }
     .footer {
